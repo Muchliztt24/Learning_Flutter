@@ -1,10 +1,12 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:belajar/container/dua.dart';
 import 'package:belajar/container/satu.dart';
+import 'package:belajar/form/formscreen.dart';
 import 'package:belajar/listview/contohdua.dart';
 import 'package:belajar/listview/contohempat.dart';
 import 'package:belajar/listview/contohsatu.dart';
 import 'package:belajar/listview/contohtiga.dart';
+import 'package:belajar/listview/latihandua.dart';
 import 'package:belajar/listview/wisata_screen.dart';
 import 'package:belajar/row_collum/column_satu.dart';
 import 'package:belajar/row_collum/latihansatu.dart';
@@ -22,7 +24,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WisataScreen()
+      home: BelajarForm()
     );
   }
 }
